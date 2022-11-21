@@ -1,0 +1,37 @@
+.header1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.header-video {
+  width: 1800px;
+  height: 100px;
+}
+.header-front-img {
+  /* 为了实现缩小时仍然可以看见叶子 */
+  width: 120%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}
+.header2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.header-video2 {
+  width: 1800px;
+  height: 100px;
+}
+.header-front-img2 {
+  /* 为了实现缩小时仍然可以看见叶子 */
+  width: 120%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}

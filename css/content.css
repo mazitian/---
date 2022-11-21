@@ -1,0 +1,31 @@
+
+
+.inside {
+  width: 1200px;
+  margin: 15px auto ;
+  /* background: url(../img/bgbgbg.png); */
+}
+
+.inside .image-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.inside .image-list span {
+  overflow: hidden;
+}
+
+.inside .image-list img {
+  width: 290px;
+  height: 150px;
+  transition: transform 400ms ease;
+}
+
+.inside .image-list img:hover {
+  transform: scale(1.1);
+}
+
+.jarallax1 {
+  overflow: hidden;
+}
